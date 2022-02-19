@@ -1,0 +1,104 @@
+@media (max-width: 768px) {
+    #what .items {
+        display: block;
+        padding: 1.1rem;
+    }
+
+    #what .items .item {
+        display: flex;
+        text-align: left;
+    }
+
+    #what .items .item i {
+        margin-right: 1.5rem;
+        align-self: center;
+        margin-bottom: 0;
+    }    
+}
+
+/* SmartPhones */
+@media (max-width: 500px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar .logo {
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+
+    #navbar ul {
+        margin: auto;
+        padding: 0.5rem;
+    }
+
+    #showcase .showcase-content {
+       top: 110px;
+    }
+    
+    #who {
+        display: block;
+    }
+
+    #who .who-img {
+        display: none;
+    }
+
+    #clients .items img {
+        width: 80%;
+    }
+    
+    #clients .items div:last-child {
+        display: none;
+    }
+
+    #contact {
+        display: block;
+    }
+
+    #contact .map {
+        height: 200px;
+        border-top: 6px #333 solid;
+    }
+
+    .lad {
+        width: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .laadaf {
+        margin-left: -16px;
+        width: 65px;
+    }
+
+    .l-heading {
+        font-size: 2.8rem;
+    }
+    
+    #showcase {
+        height: 96vh;
+    }
+
+    .L-Font {
+        font-size: 16px;
+        margin-top: -6px;
+    }
+}
+
+@media (max-height: 568) {
+    #showcase .showcase-content {
+        margin-top: -1rem;
+    }
+
+    .l-heading {
+        font-size: 3rem;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+}
