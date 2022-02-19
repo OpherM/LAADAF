@@ -12,9 +12,9 @@ function initMap() {
 }
 
 // Promt,Alert and Var
-var dogAge=prompt("Hello precious how are you today?");
-var humanAge=((dogAge - 2) * 4) + 21;
-alert("Your Dog is " + humanAge + " years old in human years");
+// var dogAge=prompt("Hello precious how are you today?");
+// var humanAge=((dogAge - 2) * 4) + 21;
+// alert("Your Dog is " + humanAge + " years old in human years");
 
 // Sticky menu background
 window.addEventListener('scroll', function() {
