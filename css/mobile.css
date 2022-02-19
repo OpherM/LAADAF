@@ -84,7 +84,7 @@
     }
     
     #showcase .showcase-content {
-        top: 137.26px;
+        top: 139.26px;
     }
 
     .L-Font {
@@ -96,8 +96,6 @@
 @media (max-height: 568) {
     #showcase .showcase-content {
         margin-top: -1rem;
-        top: 137.26px;
-
     }
 
     .l-heading {
