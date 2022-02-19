@@ -84,7 +84,11 @@
     }
     
     #showcase .showcase-content {
-        top: 143.26px;
+        top: 137.26px;
+    }
+
+    #showcase {
+        margin-top: -32px;
     }
 
     .L-Font {
