@@ -16,7 +16,7 @@
     } 
     
     #showcase .showcase-content {
-        top: 137.26px;
+        top: 90.24px;
     }
 }
 
@@ -83,9 +83,9 @@
         font-size: 2.8rem;
     }
     
-    #showcase .showcase-content {
+    /* #showcase .showcase-content {
         top: 137.26px;
-    }
+    } */
 
     .L-Font {
         font-size: 16px;
