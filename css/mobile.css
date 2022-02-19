@@ -79,8 +79,8 @@
         font-size: 2.8rem;
     }
     
-    #showcase {
-        height: 96vh;
+    #showcase .showcase-content {
+        top: 137.26px;
     }
 
     .L-Font {
