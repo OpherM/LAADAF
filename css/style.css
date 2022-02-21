@@ -184,6 +184,21 @@ p {
     background: url(../img/people.jpg) no-repeat center center/cover;
 }
 
+/* Section: The Proprietor */
+
+#prop {
+    display: flex;
+    border-top: #fff 2px double;
+}
+
+#prop div {
+    flex: 1;
+}
+
+#prop .prop-img {
+    background: url(../img/DrMrsOlowoleni2_2_30_3_1180x750.jpg) no-repeat center center/cover;
+}
+
 /* Section: Clients */
 #clients .items {
     display: flex;
@@ -233,4 +248,18 @@ p {
     width: 10%;
     display: flex;
     justify-content: space-between;
+}
+
+/* Gallery */
+.carousel-container {
+    width: 60%;
+    margin: auto;
+    border: 5px solid black;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    display: flex;
+    width: 100%;
+    height: 400px;
 }

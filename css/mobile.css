@@ -49,6 +49,14 @@
         display: none;
     }
 
+    #prop {
+        display: block;
+    }
+
+    #prop .prop-img {
+        display: none;
+    }
+
     #clients .items img {
         width: 80%;
     }
