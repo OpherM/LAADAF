@@ -21,7 +21,7 @@ p {
 }
 
 /* Utility Classes */
-.containere {
+.container {
     max-width: 1400px;
     margin: auto;
     padding: 0 2rem;
@@ -32,7 +32,7 @@ p {
     text-align: center;
 }
 
-.tex-primary {
+.text-primary {
     color: #93cb52;
 }
 
@@ -55,19 +55,19 @@ p {
     margin-bottom: 0.75rem;
     line-height: 1.1;
 } 
-.ma-heading {
+.m-heading {
     font-size: 2rem;
     margin-bottom: 0.75rem;
     line-height: 1.1;
 } 
 
-.pya-1 { padding: 1.5rem 0;}
-.pya-2 { padding: 2rem 0;}
-.pya-3 { padding: 3rem 0;}
+.py-1 { padding: 1.5rem 0;}
+.py-2 { padding: 2rem 0;}
+.py-3 { padding: 3rem 0;}
 
-.pa-1 { padding: 1.5rem;}
-.pa-2 { padding: 2rem;}
-.pa-3 { padding: 3rem;}
+.p-1 { padding: 1.5rem;}
+.p-2 { padding: 2rem;}
+.p-3 { padding: 3rem;}
 
 .lead {
     font-size: 1.3rem;
@@ -186,16 +186,16 @@ p {
 
 /* Section: The Proprietor */
 
-#props {
+#prop {
     display: flex;
     border-top: #fff 2px double;
 }
 
-#props div {
+#prop div {
     flex: 1;
 }
 
-#props .prop-img {
+#prop .prop-img {
     background: url(../img/DrMrsOlowoleni2_2_30_3_1180x750.jpg) no-repeat center center/cover;
 }
 
@@ -240,7 +240,6 @@ p {
 }
 
 .L-Font {
-    font-size: 25px;
     color: #f4f4f4;
     margin-top: 15px;
 }

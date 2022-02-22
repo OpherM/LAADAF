@@ -35,6 +35,7 @@
     #navbar ul {
         margin: auto;
         padding: 0.5rem;
+        font-size: 13px
     }
 
     #showcase .showcase-content {
@@ -49,11 +50,11 @@
         display: none;
     }
 
-    #props {
+    #prop {
         display: block;
     }
 
-    #props .prop-img {
+    #prop .prop-img {
         display: none;
     }
 
@@ -103,9 +104,10 @@
         font-size: 16px;
         margin-top: -6px;
     }
+
 }
 
-@media (max-height: 568) {
+@media (max-height: 568px) {
     #showcase .showcase-content {
         margin-top: -1rem;
     }
