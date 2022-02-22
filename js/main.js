@@ -57,3 +57,23 @@ nextBtn.addEventListener('click',()=>{
   counter++;
   carouselSlide.style.transform = 'translateX(" + (-size * counter) +"px)';
 });
+
+// $("#carouselButton").click(function(){
+//   if ($("#carouselButton").children("span").hasClass('fa-pause')) {
+//       $("#mycarousel").carousel('pause');
+//       $("#carouselButton").children("span").removeClass('fa-pause');
+//       $("#carouselButton").children("span").addClass('fa-play');
+//   }
+//   else if ($("#carouselButton").children("span").hasClass('fa-play')){
+//       $("#mycarousel").carousel('cycle');
+//       $("#carouselButton").children("span").removeClass('fa-play');
+//       $("#carouselButton").children("span").addClass('fa-pause');                    
+//   }
+// });
+
+// $("#Modalbutton").click(function(){
+// $("#reservetable").modal('show');
+// });
+// $("#loginmode").click(function(){
+// $("#loginModal").modal('show');
+// });
