@@ -93,7 +93,7 @@
     }
     
     #showcase .showcase-content {
-        top: 137.26px;
+        top: 134.26px;
     }
 
     #showcase {
@@ -103,6 +103,12 @@
     .L-Font {
         font-size: 16px;
         margin-top: -6px;
+    }
+
+    .slider {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
     }
 
 }
