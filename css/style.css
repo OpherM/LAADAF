@@ -254,8 +254,17 @@ p {
 #gallery {
     display: flex;
     justify-content: center;
-    align-items: center;
+    max-width: 1200px;
+    margin: auto;
 }
+
+#gallery div {
+    flex: 1;
+}
+
+/* #gallery div:first-child {
+    flex: 2;
+} */
 
 .slider {
     position: relative;
@@ -312,8 +321,18 @@ p {
     margin-left: -300%;
 }
 
+.donations {
+    font-size: 17px;
+}
 
+.donations-p {
+    font-weight: bold;
+    font-size: 20px;
+}
 
+.current {
+    margin-left: 40px;
+}
 
 
 

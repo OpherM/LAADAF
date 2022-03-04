@@ -111,6 +111,25 @@
         overflow: hidden;
     }
 
+    #gallery {
+        display: block;
+    }
+
+    .current {
+        margin-left: 30px;
+    }
+
+    .slider {
+        width: 98%;
+        margin: auto;
+    }
+
+    .donations {
+        width: 98%;
+        margin: auto;
+    }
+
+
 }
 
 @media (max-height: 568px) {
