@@ -116,7 +116,7 @@
     }
 
     .current {
-        margin-left: 30px;
+        margin-left: 20px;
     }
 
     .slider {
@@ -127,6 +127,7 @@
     .donations {
         width: 98%;
         margin: auto;
+        font-size: 15px
     }
 
 
